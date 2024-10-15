@@ -1,0 +1,88 @@
+
+h1 
+{
+    color: rgb(5, 21, 13); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-size: 2.5rem; 
+    margin-bottom: 50px; 
+    margin-top: 25px;
+    text-align: center;
+}
+body
+{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    background-image: url("Schooltask.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(245, 245, 245); 
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 2px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type="button"],
+button {
+    background-color: rgb(5, 21, 13);
+    color: white; 
+    border-radius: 5px; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    font-size: 10px; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+input[type="button"]:hover,
+button:hover 
+{
+    background-color: rgb(10, 35, 20); 
+    transform: scale(1.05); 
+    cursor: pointer;
+    
+}
+
+ul li 
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    justify-content: space-between;
+    align-items: center; 
+    margin: 5px 0; 
+    padding: 10px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 1.05s;
+    
+}
+
+ul li:hover {
+    background-color: rgba(200, 200, 200, 0.5); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+input [type=text]
+{
+    background-color: rgb(237, 240, 238); 
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+input[type="text"]
+{
+    width: 20%; 
+    padding: 10px; 
+    border: 1px solid rgb(5, 21, 13); 
+    border-radius: 5px; 
+    font-size: 16px; 
+    margin-bottom: 15px; 
+    transition: border-color 0.3s;
+    margin-left:0%;
+}
+
+
