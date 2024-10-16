@@ -2,12 +2,13 @@
 h1 
 {
     color: rgb(5, 21, 13); 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5); 
     font-size: 2.5rem; 
     margin-bottom: 50px; 
     margin-top: 25px;
     text-align: center;
 }
+
 body
 {
     display: flex; 
@@ -20,7 +21,7 @@ body
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(245, 245, 245); 
-    
+ 
 }
 
 ul {
@@ -83,6 +84,11 @@ input[type="text"]
     margin-bottom: 15px; 
     transition: border-color 0.3s;
     margin-left:0%;
+}
+input[type="text"]:hover, text:hover
+{
+    background-color: rgba(200, 200, 200, 0.5); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 
